@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+}
+
+#hero {
+    min-height: 100vh;
+    position:relative;
+}
+
+.promo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+video {
+    position:absolute;
+    top: 0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.capa {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:#1c1c1d;
+    opacity:10;
+    mix-blend-mode:overlay;
+}
+
+h1{
+    font-size: 80px;
+    font-family: cursive; 
+    text-align: center;
+}
+p {
+    padding: 7%;
+    font-size: 20px;
+    color: white;
+    padding-top: 5%;
+    margin: 2rem auto;
+    text-align: center;
+    background: rgba(30,30,30,0.4);
+    border-radius: 1rem;
+}
+h2{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+h3{
+    color: white;
+}
+
